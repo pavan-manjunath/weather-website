@@ -28,17 +28,17 @@ app.get('', (req, res) => {
     })
 })
 
-app.get('/about', (req,res) => {
-    res.render('about',{
-        title: 'About Page'
-    })
-})
+// app.get('/about', (req,res) => {
+//     res.render('about',{
+//         title: 'About Page'
+//     })
+// })
 
-app.get('/help', (req,res) => {
-    res.render('help', {
-        title: 'Post your queries'
-    })
-})
+// app.get('/help', (req,res) => {
+//     res.render('help', {
+//         title: 'Post your queries'
+//     })
+// })
 
 
 app.get('/weather', (req,res) => {
